@@ -15,9 +15,9 @@ def scan_ports(target_ip, start_port, end_port):
     return open_ports
 
 def main():
-    target_ip = input("Enter the target IP address: ")
-    start_port = int(input("Enter the starting port: "))
-    end_port = int(input("Enter the ending port: "))
+    target_ip = input("Enter the target IP address, bro: ")
+    start_port = int(input("Enter the starting port, yeah: "))
+    end_port = int(input("Enter the ending port, let's go: "))
 
     open_ports = scan_ports(target_ip, start_port, end_port)
 
